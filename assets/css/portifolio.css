@@ -1,0 +1,164 @@
+.portifolio {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/*Card */
+.card {
+  border-radius: 40px;
+  width: 20rem;
+  cursor: pointer;
+}
+
+.content {
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  transition: all 2.25s;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.8);
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  padding: 7em;
+  transform-style: preserve-3d;
+  border: 2px solid #000;
+}
+#contenta {
+  text-align: center;
+  position: relative;
+  transition: all 2.25s;
+  background: url("/imgs/imgSlide2.png");
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  padding: 7em;
+  transform-style: preserve-3d;
+  
+}
+#contentb {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transition: all 2.25s;
+  background: url("/imgs/imgSlide1.png");
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  padding: 7em;
+  transform-style: preserve-3d;
+  
+}
+#contentc {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transition: all 2.25s;
+  background: url("/imgs/imgSlide3.png");
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  padding: 7em;
+  transform-style: preserve-3d;
+  
+}
+#contentd {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transition: all 2.25s;
+  background: url("/imgs/imgSlide4.png");
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  padding: 7em;
+  transform-style: preserve-3d;
+  
+}
+#contente {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transition: all 2.25s;
+  background: url("/imgs/imgSlide5.png");
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  padding: 7em;
+  transform-style: preserve-3d;
+  
+}
+#contentf {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transition: all 2.25s;
+  background: url("/imgs/imgSlide6.png");
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  padding: 7em;
+  transform-style: preserve-3d;
+  
+}
+
+.card:hover .content {
+  transform: rotateY(0.5turn);
+}
+
+.front,
+.back {
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 2em;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.title {
+  color: #F6B410;
+  text-shadow: 2px 2px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000, -1px -1px 1px #000;
+  transform: translateZ(5rem);
+  font-size: 2rem;
+}
+
+.subtitle {
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  transform: translateZ(2rem);
+  text-shadow: 2px 2px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000, -1px -1px 1px #000;
+  margin-top: 60px
+}
+
+.back {
+  font-weight: 800;
+  font-size: 22px;
+  transform: rotateY(0.5turn);
+  background-color: #f6b410;
+}
+
+.description {
+  transform: translateZ(3rem);
+}
+
+.h2-portifolio {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 200px;
+  margin-bottom: 60px;
+  text-align: center;
+  
+}
+.h2-portifolio .my {
+  font-weight: 900;
+  font-size: 46px;
+  color: white;
+}
+.h2-portifolio .portifolio-h2 {
+  font-weight: 400;
+  font-size: 46px;
+  color: var(--big-font-yellow);
+}

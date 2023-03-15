@@ -1,0 +1,48 @@
+.about {
+    padding-top: 100px;
+}
+.about-first {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.about-h2-first {
+    color: white;
+    font-weight: 900;
+    font-size: 46px;  
+}
+.about-h2-second {
+    font-weight: 400;
+    font-size: 46px;
+    color: var(--big-font-yellow);
+}
+
+.about-personal {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--big-font-yellow);
+}
+.about-me {
+    display: flex;
+    justify-content: space-around;
+}
+.about-title {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: 900;
+    font-size: 32px;  
+}
+.atribute {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--big-font-yellow); 
+}
+.downloadcv {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

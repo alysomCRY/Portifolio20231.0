@@ -1,0 +1,18 @@
+@import url("reset.css");
+@import url("slider.css");
+@import url("skills.css");
+@import url("portifolio.css");
+@import url("header.css");
+@import url("about.css");
+@import url("my-portifolio.css");
+@import url("/assets/css/contact.css");
+@import url("/assets/css/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Jura:wght@300&display=swap');
+
+:root {
+    --big-font-yellow: #F6B410;
+}
+body {
+    background-color: #14161D;
+    font-family: 'Jost' ;
+}

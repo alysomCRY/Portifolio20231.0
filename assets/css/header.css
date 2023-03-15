@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  padding-top: 100px;
+}
+
+.text-div {
+  width: 685px;
+  height: 370px;
+  text-align: center;
+}
+.text-div .h2-iam {
+  gap: 2px;
+  font-weight: 400;
+  font-size: 48px;
+  color: var(--big-font-yellow);
+}
+.text-div .h2-front {
+  font-weight: 400;
+  font-size: 48px;
+  color: white;
+}
+.text-div .p-me {
+  text-align: initial;
+  font-size: 32px;
+  color: white;
+  
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 77px 117px;
+}
+.more {
+  padding-right: 400px;
+}
+.menu img {
+  cursor: pointer;
+}
+.img-home {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: url("/imgs/circlehome.svg");
+  transition: all 0.7s;
+}
+.img-home:hover {
+  background: url("/imgs/home-yellow.svg");
+}
+.img-person {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: url("/imgs/circleperson.svg");
+  transition: all 0.7s;
+}
+.img-person:hover {
+  background: url("/imgs/person-yellow.svg");
+}
+.img-contact {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: url("/imgs/circlecontact.svg");
+  transition: all 0.7s;
+}
+.img-contact:hover {
+  background: url("/imgs/contact-yeloow.svg");
+}
+.img-email {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: url("/imgs/circleemail.svg");
+  transition: all 0.7s;
+}
+.img-email:hover {
+  background: url("/imgs/email-yellow.svg");
+}

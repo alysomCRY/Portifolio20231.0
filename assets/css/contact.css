@@ -1,0 +1,27 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.contact-text {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.contact-text h2:first-child {
+    color: white;
+    font-weight: 900;
+    font-size: 46px; 
+}
+.contact-text h2:last-child {
+    font-weight: 400;
+    font-size: 46px;
+    color: var(--big-font-yellow);
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+}
